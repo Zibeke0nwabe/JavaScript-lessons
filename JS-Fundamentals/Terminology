@@ -1,0 +1,5 @@
+VARIABLE: is used to store values and it can be used as var e.g when storing a value 5 in a variable container we can use (var = 5)
+Data type: values that we use comes in various data type e.g in a form of string, boolean numbers etc. so Data type is a type of a value that is used in programming languages (not only JavaScript)
+Function: a block of code that perfoms a give task it is used to eliminate code repetation
+Object : a group of key-value pairs
+Comment: a written text that descript the code which is not executed when the code is ran, it makes it easier for developers to remember what each code does and eiser for other developers to read the code
