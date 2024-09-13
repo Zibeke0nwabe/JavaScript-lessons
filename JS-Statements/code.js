@@ -53,3 +53,33 @@ function dayName(day){
     }
 }
 console.log(dayName(4));
+
+/**
+ * write a switch statement for Mr O.Zibeke for the following days
+ * Monday & Tuesday - (Zoom meeting: 10:00 am) Soccer Training at 15:00 pm
+ * Wednesday - coding sections from 09:am to 15:30 pm
+ * Thurday & Friday - coding section from 10:00 am 
+ * Startuday - coding section at 15:30 pm
+ * Sunday - Resting day
+ */
+let day = 'Monday';
+switch(day){
+    case 'Monday':
+    case 'Tuesday':
+        console.log('Zoom meeting at 10:00 am and Soccer Training at 15:00');
+        break;
+    case 'Wednesday':
+        console.log('Coding section at 09:00 am to 15:30 am');
+        break;
+    case 'Thursday':
+    case 'Friday':
+        console.log('Coding section at 10:00 am');
+        break;
+    case 'Startuday':
+        console.log('Coding section at 15:30 am');
+        break;
+    case 'Sunday':
+        console.log('Resting day');
+    default:
+        console.log('Invalid day'); 
+}
