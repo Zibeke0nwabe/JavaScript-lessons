@@ -66,17 +66,17 @@ let day = 'Monday';
 switch(day){
     case 'Monday':
     case 'Tuesday':
-        console.log('Zoom meeting at 10:00 am and Soccer Training at 15:00');
+        console.log('Zoom meeting at 10:00 am and Soccer Training at 15:00 pm');
         break;
     case 'Wednesday':
-        console.log('Coding section at 09:00 am to 15:30 am');
+        console.log('Coding section at 09:00 am to 15:30 pm');
         break;
     case 'Thursday':
     case 'Friday':
         console.log('Coding section at 10:00 am');
         break;
-    case 'Startuday':
-        console.log('Coding section at 15:30 am');
+    case 'Staturday':
+        console.log('Coding section at 15:30 pm');
         break;
     case 'Sunday':
         console.log('Resting day');
